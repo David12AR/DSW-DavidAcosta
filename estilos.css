@@ -1,6 +1,10 @@
+.body{
+	font-family:Franklin Gothic Heavy;
+}
+
 .titulo{
 text-align: center;
-font-family:Franklin Gothic Heavy;
+margin: 0px 150px;
 
 }
 
@@ -13,24 +17,23 @@ margin: 0px;
 
 .nav{
 	width: 2000px;
-	margin: 30px auto;
+	margin: 3px auto;
 	background: blue;
 }
 
 #header{
 margin: auto;
-width: 1250px;
-font-family:Franklin Gothic Heavy; 
+width: 1230px;
 }
 
-ul,ol{
+ol{
 list-style: none;
 }
 .nav li a{
 	background-color: #005883;
 	color: #b3b3b3;
 	text-decoration: none;
-	padding: 10px 90px;
+	padding: 10px 88px 10px 88px;
 	display: block;
 }
 
@@ -41,14 +44,85 @@ list-style: none;
 	float:left;
 }
 
-.nav li ul{
+.nav li ol{
 	display:none;
 	position: absolute;
 	min-width: 200px;
 }
 
-.nav li:hover > ul{
+.nav li:hover > ol{
 	display: block;
 }
 
+#tabla{
+	background-color: #b3b3b3;
+	border: 3px solid;
+	height: 170px;
+	margin: 80px 60px 20px 60px;
+	border-radius: 20px 0px 20px 0px;
+	-moz-border-radius:20px 0px 20px 0px;
+	-webkit-border-radius:20px 0px 20px 0px;
+	text-align: justify;
 
+}
+.tabla2{
+	margin: 0px 80px;
+	
+}
+#tabla3{
+	border: 3px solid;
+	height: 130px;
+	margin: 20px 60px 20px 60px;;
+	border-radius: 20px ;
+	-moz-border-radius:20px ;
+	-webkit-border-radius:20px ;
+}
+.tabla4{
+	margin: 8px 20px;
+}
+#tabla5{
+	background-color: #F0B429;
+	border: 3px solid;
+	height: 303px;
+	margin: 0px 700px 0px 60px;
+	border-radius: 20px 0px 20px 0px;
+	-moz-border-radius:20px 0px 20px 0px;
+	-webkit-border-radius:20px 0px 20px 0px;
+	text-align: justify;
+}
+.texto{
+	margin: 20px 20px;
+}
+.texto2{
+	margin: 9px 24px;
+}
+#imagen{
+background-color: #005883;
+float:right;
+border: 3px solid;
+height: 570px;	
+width: 610px;
+margin: 0px 60px 0px 0px;
+border-radius: 20px 0px 20px 0px;
+	-moz-border-radius:20px 0px 20px 0px;
+	-webkit-border-radius:20px 0px 20px 0px;
+}
+
+#tabla6{
+	background-color: #F0B429;
+	border: 3px solid;
+	height: 240px;
+	margin: 20px 700px 0px 60px;
+	border-radius: 20px 0px 20px 0px;
+	-moz-border-radius:20px 0px 20px 0px;
+	-webkit-border-radius:20px 0px 20px 0px;
+	text-align: justify;
+}
+
+.img{
+	width: 400px; 
+	height: 300px;
+	margin: 30px 60px 0px 100px;
+	display: block;
+
+}
