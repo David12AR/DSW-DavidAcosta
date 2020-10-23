@@ -1,5 +1,6 @@
 .body{
-	font-family:Franklin Gothic Heavy;
+	font-family:Franklin Gothic Book;
+	font-size: 16px;
 }
 
 .titulo{
@@ -14,13 +15,11 @@ margin: 0px;
 
 }
 
-
 .nav{
-	width: 2000px;
+	width: 1250px;
 	margin: 3px auto;
 	background: blue;
 }
-
 #header{
 margin: auto;
 width: 1230px;
@@ -31,9 +30,9 @@ list-style: none;
 }
 .nav li a{
 	background-color: #005883;
-	color: #b3b3b3;
+	color:   #b3b3b3;
 	text-decoration: none;
-	padding: 10px 88px 10px 88px;
+	padding: 10px 88px 10px 96px;
 	display: block;
 }
 
@@ -54,10 +53,14 @@ list-style: none;
 	display: block;
 }
 
+
+
+
 #tabla{
-	background-color: #b3b3b3;
+	background-color:  #F0B429;
 	border: 3px solid;
-	height: 170px;
+	border-color:  #005883;
+	height: 175px;
 	margin: 80px 60px 20px 60px;
 	border-radius: 20px 0px 20px 0px;
 	-moz-border-radius:20px 0px 20px 0px;
@@ -65,11 +68,25 @@ list-style: none;
 	text-align: justify;
 
 }
+
+#tablaC{
+	background-color:  #F0B429;
+	border: 3px solid;
+	border-color:  #005883;
+	height: 320px;
+	margin: 20px 60px 20px 60px;
+	border-radius: 20px 0px 20px 0px;
+	-moz-border-radius:20px 0px 20px 0px;
+	-webkit-border-radius:20px 0px 20px 0px;
+	text-align: center;
+
+}
 .tabla2{
 	margin: 0px 80px;
 	
 }
 #tabla3{
+	color:   #005883;
 	border: 3px solid;
 	height: 130px;
 	margin: 20px 60px 20px 60px;;
@@ -82,7 +99,9 @@ list-style: none;
 }
 #tabla5{
 	background-color:  #005883;
+	color:   #b3b3b3;
 	border: 3px solid;
+	border-color: #F0B429;
 	height: 303px;
 	margin: 0px 700px 0px 60px;
 	border-radius: 20px 0px 20px 0px;
@@ -98,6 +117,7 @@ list-style: none;
 }
 #imagen{
 background-color: #b3b3b3;
+color: #005883;
 float:right;
 border: 3px solid;
 height: 570px;	
@@ -110,7 +130,9 @@ border-radius: 20px 0px 20px 0px;
 
 #tabla6{
 	background-color: #005883;
+	color: #b3b3b3;
 	border: 3px solid;
+	border-color:  #F0B429;
 	height: 240px;
 	margin: 20px 700px 0px 60px;
 	border-radius: 20px 0px 20px 0px;
@@ -120,9 +142,9 @@ border-radius: 20px 0px 20px 0px;
 }
 
 .img{
-	width: 550px; 
-	height: 400px;
-	margin: 30px 60px 0px 30px;
+	width: 500px; 
+	height: 300px;
+	margin: 30px 60px 0px 50px;
 	display: block;
 
 }
@@ -136,10 +158,105 @@ border-radius: 20px 0px 20px 0px;
 }
 #imagen2{
 background-color: #b3b3b3;
+color:  #005883;
 border: 3px solid;
 height: 570px;	
 margin: 0px 58px 70px 60px;
 border-radius: 20px 0px 20px 0px;
 	-moz-border-radius:20px 0px 20px 0px;
 	-webkit-border-radius:20px 0px 20px 0px;
+}
+#footer{
+	border: 3px solid;
+	height: 200px;
+	margin: 20px 60px 20px 60px;;
+	border-radius: 20px ;
+	-moz-border-radius:20px ;
+	-webkit-border-radius:20px ;
+}
+
+#tabla5C{
+	color:#b3b3b3;
+	background-color:  #005883;
+	border: 3px solid;
+	border-color:  #F0B429;
+	height: 303px;
+	margin: 80px 700px 20px 60px;
+	border-radius: 20px 0px 20px 0px;
+	-moz-border-radius:20px 0px 20px 0px;
+	-webkit-border-radius:20px 0px 20px 0px;
+	text-align: justify;
+}
+#tabla2C{
+background-color: #b3b3b3;
+	border: 3px solid;
+	height: 170px;
+	margin: 20px 60px 20px 60px;
+	border-radius: 20px 0px 20px 0px;
+	-moz-border-radius:20px 0px 20px 0px;
+	-webkit-border-radius:20px 0px 20px 0px;
+	text-align: justify;
+}
+#imagenC{
+background-color: #b3b3b3;
+color:  #005883;
+float:right;
+border: 3px solid;
+border-color:   #005883;
+height: 303px;	
+width: 610px;
+margin: 0px 60px 0px 0px;
+border-radius: 20px 0px 20px 0px;
+	-moz-border-radius:20px 0px 20px 0px;
+	-webkit-border-radius:20px 0px 20px 0px;
+}
+#imagen2C{
+color:  #005883;
+background-color: #b3b3b3;
+float:right;
+border: 3px solid;
+border-color:   #005883;
+height: 303px;	
+width: 610px;
+margin: 20px 60px 0px 0px;
+border-radius: 20px 0px 20px 0px;
+	-moz-border-radius:20px 0px 20px 0px;
+	-webkit-border-radius:20px 0px 20px 0px;
+}
+#imagen2C2{
+color:  #005883;
+background-color: #b3b3b3;
+float:right;
+border: 3px solid;
+border-color:   #005883;
+height: 303px;	
+width: 610px;
+margin: 0px 60px 0px 0px;
+border-radius: 20px 0px 20px 0px;
+	-moz-border-radius:20px 0px 20px 0px;
+	-webkit-border-radius:20px 0px 20px 0px;
+}
+#tabla6C{
+	background-color: #005883;
+	color:   #b3b3b3;
+	border: 3px solid;
+	border-color:   #F0B429;
+	height: 303px;
+	margin: 20px 700px 0px 60px;
+	border-radius: 20px 0px 20px 0px;
+	-moz-border-radius:20px 0px 20px 0px;
+	-webkit-border-radius:20px 0px 20px 0px;
+	text-align: justify;
+}
+.img2{
+	width: 400px; 
+	height: 200px;
+	margin: 11px 60px 0px 100px;
+	display: block;
+}
+.textoimagen{
+	margin: 0px 98px;
+}
+.textoimagen1{
+	margin: 0px 55px;
 }
