@@ -14,54 +14,65 @@ padding: 0px;
 margin: 0px;
 
 }
+nav,header,.contenedor, footer{
+	max-width: 90%;
+	margin: auto;
 
-.nav{
-	width: 1250px;
-	margin: 3px auto;
-	background: blue;
 }
-#header{
-margin: auto;
-width: 1230px;
+nav{
+	background-color:  #005883;
+	text-align: center;
+	margin: 20px auto 20px auto;
 }
 
-ol{
-list-style: none;
+header{
+	color:   #005883;
+	border: 3px solid;
+	height: 130px;
+	margin: 20px auto 20px auto;
+	border-radius: 20px ;
+	-moz-border-radius:20px ;
+	-webkit-border-radius:20px ;
 }
-.nav li a{
-	background-color: #005883;
-	color:   #b3b3b3;
-	text-decoration: none;
-	padding: 10px 88px 10px 96px;
+
+.menu li{
+	display:inline-block;
+
+}
+li a,boton{
+	display:inline-block;
+	color: #b3b3b3;
+	text-align: center;
+	text-decoration:none;
+	padding: 0.9em 5em;
+}
+.listadesplegable{
+	display:none;
+	background-color: #333333;
+	position: absolute;
+
+}
+.listadesplegable a{
+	color: #b3b3b3;
+	display:block;
+	text-align: left;
+
+}
+.boton:hover .listadesplegable{
 	display: block;
 }
 
-.nav li a:hover {
+li a:hover{
 	background-color: #333333;
 }
-.nav > li {
-	float:left;
-}
-
-.nav li ol{
-	display:none;
-	position: absolute;
-	min-width: 200px;
-}
-
-.nav li:hover > ol{
-	display: block;
-}
 
 
-
-
-#tabla{
+ .tabla{
 	background-color:  #F0B429;
 	border: 3px solid;
 	border-color:  #005883;
 	height: 175px;
-	margin: 80px 60px 20px 60px;
+	margin: 20px auto 20px auto;
 	border-radius: 20px 0px 20px 0px;
 	-moz-border-radius:20px 0px 20px 0px;
 	-webkit-border-radius:20px 0px 20px 0px;
@@ -89,7 +100,7 @@ list-style: none;
 	color:   #005883;
 	border: 3px solid;
 	height: 130px;
-	margin: 20px 60px 20px 60px;;
+	margin: 20px 60px 0px 60px;;
 	border-radius: 20px ;
 	-moz-border-radius:20px ;
 	-webkit-border-radius:20px ;
