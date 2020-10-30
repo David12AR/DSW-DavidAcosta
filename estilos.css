@@ -14,7 +14,7 @@ padding: 0px;
 margin: 0px;
 
 }
-nav,header,.contenedor, footer{
+nav,header,.contenedor,.imagen, footer{
 	max-width: 90%;
 	margin: auto;
 
@@ -34,6 +34,21 @@ header{
 	-moz-border-radius:20px ;
 	-webkit-border-radius:20px ;
 }
+aside{
+	display: inline-block;
+	width:  260px;
+	min-height: 585px;
+	float: right;
+}
+
+footer{
+	border: 3px solid;
+	height: 200px;
+	margin: 20px auto 20px auto;
+	border-radius: 20px ;
+	-moz-border-radius:20px ;
+	-webkit-border-radius:20px ;
+}
 
 .menu li{
 	display:inline-block;
@@ -44,7 +59,7 @@ li a,boton{
 	color: #b3b3b3;
 	text-align: center;
 	text-decoration:none;
-	padding: 0.9em 5em;
+	padding: 0.6em 85.7PX;
 }
 .listadesplegable{
 	display:none;
@@ -80,12 +95,12 @@ li a:hover{
 
 }
 
-#tablaC{
+.tablaC{
 	background-color:  #F0B429;
 	border: 3px solid;
 	border-color:  #005883;
 	height: 320px;
-	margin: 20px 60px 20px 60px;
+	margin: 20px auto auto auto;
 	border-radius: 20px 0px 20px 0px;
 	-moz-border-radius:20px 0px 20px 0px;
 	-webkit-border-radius:20px 0px 20px 0px;
@@ -108,13 +123,13 @@ li a:hover{
 .tabla4{
 	margin: 8px 20px;
 }
-#tabla5{
+.tabla5{
 	background-color:  #005883;
 	color:   #b3b3b3;
 	border: 3px solid;
 	border-color: #F0B429;
-	height: 303px;
-	margin: 0px 700px 0px 60px;
+	height: 327px;
+	margin: auto 640px auto auto;
 	border-radius: 20px 0px 20px 0px;
 	-moz-border-radius:20px 0px 20px 0px;
 	-webkit-border-radius:20px 0px 20px 0px;
@@ -126,26 +141,25 @@ li a:hover{
 .texto2{
 	margin: 9px 24px;
 }
-#imagen{
+.imagen{
 background-color: #b3b3b3;
 color: #005883;
 float:right;
 border: 3px solid;
-height: 570px;	
-width: 610px;
-margin: 0px 60px 0px 0px;
+height: 593px;	
+width: 350px;
 border-radius: 20px 0px 20px 0px;
 	-moz-border-radius:20px 0px 20px 0px;
 	-webkit-border-radius:20px 0px 20px 0px;
 }
 
-#tabla6{
+.tabla6{
 	background-color: #005883;
 	color: #b3b3b3;
 	border: 3px solid;
 	border-color:  #F0B429;
 	height: 240px;
-	margin: 20px 700px 0px 60px;
+	margin: 20px 640px auto auto;
 	border-radius: 20px 0px 20px 0px;
 	-moz-border-radius:20px 0px 20px 0px;
 	-webkit-border-radius:20px 0px 20px 0px;
@@ -153,9 +167,9 @@ border-radius: 20px 0px 20px 0px;
 }
 
 .img{
-	width: 500px; 
+	width: 311px; 
 	height: 300px;
-	margin: 30px 60px 0px 50px;
+	margin: 30px 20px 0px 20px;
 	display: block;
 
 }
@@ -163,10 +177,18 @@ border-radius: 20px 0px 20px 0px;
 
 	width: 400px; 
 	height: 300px;
-	margin: 60px 50px 0px 70px;
+	margin: 60px 50px 0px 25px;
 	display: block;
 
 }
+#audio2{
+
+	width: 100px; 
+	height: 300px;
+	margin: 35px 40px 0px 220px;
+	display: block;
+}
+
 #imagen2{
 background-color: #b3b3b3;
 color:  #005883;
@@ -177,38 +199,42 @@ border-radius: 20px 0px 20px 0px;
 	-moz-border-radius:20px 0px 20px 0px;
 	-webkit-border-radius:20px 0px 20px 0px;
 }
-#footer{
-	border: 3px solid;
-	height: 200px;
-	margin: 20px 60px 20px 60px;;
-	border-radius: 20px ;
-	-moz-border-radius:20px ;
-	-webkit-border-radius:20px ;
-}
 
-#tabla5C{
+.tabla5C{
 	color:#b3b3b3;
 	background-color:  #005883;
 	border: 3px solid;
 	border-color:  #F0B429;
-	height: 303px;
-	margin: 80px 700px 20px 60px;
+	height: 327px;
+	margin: auto 640px auto auto;
 	border-radius: 20px 0px 20px 0px;
 	-moz-border-radius:20px 0px 20px 0px;
 	-webkit-border-radius:20px 0px 20px 0px;
 	text-align: justify;
 }
-#tabla2C{
+.tabla2C{
 background-color: #b3b3b3;
 	border: 3px solid;
 	height: 170px;
-	margin: 20px 60px 20px 60px;
+	margin: auto 640px auto auto;
 	border-radius: 20px 0px 20px 0px;
 	-moz-border-radius:20px 0px 20px 0px;
 	-webkit-border-radius:20px 0px 20px 0px;
 	text-align: justify;
 }
-#imagenC{
+.imagenC{
+background-color: #b3b3b3;
+color:  #005883;
+float:right;
+border: 3px solid;
+border-color:   #005883;
+height: 326px;	
+width: 610px;
+border-radius: 20px 0px 20px 0px;
+	-moz-border-radius:20px 0px 20px 0px;
+	-webkit-border-radius:20px 0px 20px 0px;
+}
+.imagen2C{
 background-color: #b3b3b3;
 color:  #005883;
 float:right;
@@ -216,44 +242,43 @@ border: 3px solid;
 border-color:   #005883;
 height: 303px;	
 width: 610px;
-margin: 0px 60px 0px 0px;
+margin: 20px auto auto auto;
 border-radius: 20px 0px 20px 0px;
 	-moz-border-radius:20px 0px 20px 0px;
 	-webkit-border-radius:20px 0px 20px 0px;
 }
-#imagen2C{
+.imagen2C2{
 color:  #005883;
 background-color: #b3b3b3;
 float:right;
 border: 3px solid;
 border-color:   #005883;
-height: 303px;	
+height: 408px;	
 width: 610px;
-margin: 20px 60px 0px 0px;
+margin: 20px auto auto auto;
 border-radius: 20px 0px 20px 0px;
 	-moz-border-radius:20px 0px 20px 0px;
 	-webkit-border-radius:20px 0px 20px 0px;
 }
-#imagen2C2{
-color:  #005883;
-background-color: #b3b3b3;
-float:right;
-border: 3px solid;
-border-color:   #005883;
-height: 303px;	
-width: 610px;
-margin: 0px 60px 0px 0px;
-border-radius: 20px 0px 20px 0px;
-	-moz-border-radius:20px 0px 20px 0px;
-	-webkit-border-radius:20px 0px 20px 0px;
-}
-#tabla6C{
+.tabla6C{
 	background-color: #005883;
 	color:   #b3b3b3;
 	border: 3px solid;
 	border-color:   #F0B429;
 	height: 303px;
-	margin: 20px 700px 0px 60px;
+	margin: 20px 640px auto auto;
+	border-radius: 20px 0px 20px 0px;
+	-moz-border-radius:20px 0px 20px 0px;
+	-webkit-border-radius:20px 0px 20px 0px;
+	text-align: justify;
+}
+.tabla6C2{
+	background-color: #005883;
+	color: #b3b3b3;
+	border: 3px solid;
+	border-color:   #F0B429;
+	height: 408px;
+	margin: 20px 640px auto auto;
 	border-radius: 20px 0px 20px 0px;
 	-moz-border-radius:20px 0px 20px 0px;
 	-webkit-border-radius:20px 0px 20px 0px;
@@ -269,5 +294,20 @@ border-radius: 20px 0px 20px 0px;
 	margin: 0px 98px;
 }
 .textoimagen1{
-	margin: 0px 55px;
+	margin: 0px 20px;
+}
+.recursos1{
+	background-color:  #808080;
+	border: 3px solid;
+	border-color:  #005883;
+	height: 500px;
+	border-radius: 20px 0px 20px 0px;
+	-moz-border-radius:20px 0px 20px 0px;
+	-webkit-border-radius:20px 0px 20px 0px;
+	text-align: justify;
+
+}
+#video{
+	padding: 50px 300px 0px 240px;
+	
 }
