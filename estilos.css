@@ -78,7 +78,8 @@ li a,boton{
 }
 
 li a:hover{
-	background-color: #333333;
+	background-color: #808080;
+	color:  #005883;
 }
 
 
@@ -167,9 +168,9 @@ border-radius: 20px 0px 20px 0px;
 }
 
 .img{
-	width: 200px; 
-	height: 100px;
-	margin: 40px 80px 4px 80px;
+	width: 280px; 
+	height: 280px;
+	margin: 30px 20px 0px 35px;
 	display: block;
 
 }
@@ -287,7 +288,7 @@ border-radius: 20px 0px 20px 0px;
 .img2{
 	width: 400px; 
 	height: 200px;
-	margin: 11px 60px 0px 100px;
+	margin: 16px 60px 0px 100px;
 	display: block;
 }
 .textoimagen{
