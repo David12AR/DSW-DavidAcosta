@@ -318,6 +318,16 @@ border-radius: 20px 0px 20px 0px;
 	text-align: justify;
 
 }
+.recursosauto{
+	background-color:  #333333;
+	border: 3px solid;
+	border-color:  #005883;
+	height: 800px;
+	border-radius: 20px 0px 20px 0px;
+	-moz-border-radius:20px 0px 20px 0px;
+	-webkit-border-radius:20px 0px 20px 0px;
+	text-align: justify;
+}
 #video{
 	padding: 30px 300px 0px 240px;
 	
@@ -330,6 +340,14 @@ border-radius: 20px 0px 20px 0px;
 
 .autor2{
 	color:  #005883;
+}
+
+#sopa{
+	margin: 25px 40px 0px 30px;
+	display: block;
+	border-radius: 20px 20px 20px 20px;
+	-moz-border-radius:20px 20px 20px 20px;
+	-webkit-border-radius:20px 20px 20px 20px;
 }
 #Foot{
 	width: 90%;
