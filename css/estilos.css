@@ -45,7 +45,7 @@ footer{
 	background-color: #333333;
 	border: 3px solid;
 	border-color:  #005883;
-	height: 200px;
+	height: 500px;
 	margin: 20px auto 20px auto;
 	border-radius: 20px ;
 	-moz-border-radius:20px ;
@@ -351,7 +351,7 @@ border-radius: 20px 0px 20px 0px;
 }
 #Foot{
 	width: 90%;
-	height: 7px;
+	height: 11px;
 	margin: 24px 110px 0px 95px;
 	color: #B3B3B3;
 }
