@@ -377,6 +377,17 @@ border-radius: 20px 0px 20px 0px;
 .autor2{
 	color:  #005883;
 }
+.autor1{
+	background-color:  #808080;
+	border: 3px solid;
+	border-color:  #005883;
+	height: 1050px;
+	border-radius: 20px 0px 20px 0px;
+	-moz-border-radius:20px 0px 20px 0px;
+	-webkit-border-radius:20px 0px 20px 0px;
+	text-align: justify;
+
+}
 
 #sopa{
 	margin: 25px 40px 0px 30px;
